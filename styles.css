@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  font-family: "Coolvetica";
+  font-size: 31px;
+  color: #E6FF00;
+}
+
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+
+}
+.logo{
+  margin-top: -6%;
+  margin-left: 3%;
+  width: 80%;
+
+}
+
+.home {
+  background-color: #030C47;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.name{
+  font-family: "NFL Detroit Lions";
+  padding-top: 13%;
+  color: white;
+  font-size: 90px;
+}
+
+.subt{
+  padding-top: 0.5%;
+  font-family: "Futura BdCn BT";
+  font-size: 25px;
+  color: #999898;
+}
+
+h1{
+  color: white;
+  font-family: "Futura Hv BT";
+  font-size: 50px;
+}
+.container-about{
+  display: flex;
+  flex-direction: column;
+}
+.about-title {
+  background-color: #FCB819;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:#030C47;
+
+  padding-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.imgdesc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.desc{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 11%;
+  padding-right: 20%;
+  padding-left: 5%;
+  text-align: left;
+  line-height: 130%;
+}
+
+.manishimg{
+  width: 15%;
+  height: 10%;
+  padding-left: 15%;
+  padding-top: 10%;
+}
+
+.about--title{
+  text-align: center;
+  padding-top: 2%;
+  font-size: 70px;
+}
+.container-skills{
+  display: flex;
+  flex-direction: column;
+}
+
+.skills{
+  background-color: #EA1646;
+  width: 100%;
+  height: 100vh;
+}
+
+.skills-title{
+  text-align: center;
+  padding-top: 2%;
+  font-size: 70px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  font-family: "Franklin Gothic";
+  font-weight: normal;
+  padding-left: 22%;
+  padding-right: 22%;
+  padding-top: 8%;
+}
+
+.container-portfolio{
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio{
+  background-color: #291177;
+  width: 100%;
+  height: 120vh;
+}
+
+.portfolio-title{
+  text-align: center;
+  padding-top: 2%;
+  font-size: 400%;
+  color: #FBE10F;
+}
+
+.anim{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.you{
+  width: 10em;
+  padding-left: 0%;
+}
+
+.animt{
+  font-family: "Futura Md BT";
+  color: white;
+  font-size: 50px;
+  padding-top: 4%;
+
+}
+
+.ill{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 5%;
+
+
+}
+
+.be{
+  width: 10em;
+  padding-left: 0%;
+}
+
+.illt{
+  font-family: "Futura Md BT";
+  color: white;
+  font-size: 30px;
+  padding-top: 4%;
+
+}
+
+.vis{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+
+}
+
+.in{
+  width: 10em;
+  padding-left: 0%;
+}
+
+.vist{
+  font-family: "Futura Md BT";
+  color: white;
+  font-size: 30px;
+  padding-top: 4%;
+
+}
+
+.container-contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.contactme{
+  background-color: #E4E4E4;
+  width: 100%;
+  height: 40vh;
+}
+
+.ctme{
+  text-align: center;
+  padding-top: 2%;
+  font-size: 50px;
+  color: black;
+}
+
+.info{
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: black;
+  padding-top: 5%;
+}
